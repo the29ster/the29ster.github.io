@@ -26,10 +26,10 @@ description: >- # this means to ignore newlines until "baseurl:"
   Google search results) and in your feed.xml site description.
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "http://the29ster.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-# github_username: the29ster
+github_username: the29ster
 
 # Build settings
-remote_theme: pages-themes/cayman@v0.2.0
+theme: minima
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
